@@ -9,6 +9,13 @@ const Navbar = () => (
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
     </Link>
+
+    {/* Devashish Pachlure */}
+    <div style={{ color: "#fff", fontSize: "18px", fontWeight: "bold" }}>
+      Your Name {/* Devashish Pachlure */}
+    </div>
+
+
     <SearchBar />
   </Stack>
 );
